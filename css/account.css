@@ -68,7 +68,6 @@ header {
 /* start section footer */
 footer {
     background-color:#fcfcfc;
-    margin: auto;
     border-radius: 30px;
     position: absolute;
     top: 825px;
@@ -78,7 +77,6 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     align-content:flex-end;
-    color: #161719;
     cursor: pointer;
 }
 footer .footer-icon i {
