@@ -1,0 +1,234 @@
+
+/*  #6360ff primary color 
+    #161719 accent color 
+    #c4d0d9 lines and icons 
+    #ff8181 button and checkbox 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', arial, sans-serif;
+}
+
+/* start section header */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6360ff;
+    color: #c4d0d9;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    height: 200px;
+    padding-top: 30px;
+}
+.header-img {
+    width: 50px;
+}
+.header-img  img {
+    border-radius: 50%;
+    width: 100%;
+}
+.header-content {
+    flex-grow: 0.5;
+    line-height: 1.4;
+}
+/* End section header */
+
+/* Start current box */
+.current-box {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    background: #FCFCFF;
+    left: 5%;
+    width: 90%;
+    height: 210px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.current-box .box-content {
+    margin-bottom: 20px;
+}
+.cuurrent-info {
+    display: flex;
+    justify-content: center;
+}
+.cuurrent-info-color {
+    background-color:#6360ff ;
+    width: 80px;
+    height: 70px;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuurrent-info-color .inside-rhombus {
+    background-color: #ffffff54;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+.current-progress .progress-box {
+    display: inline-flex;
+} 
+.current-progress .special {
+    margin-left: 10%;
+} 
+.current-progress .progress-box .icon {
+
+    width: 40px;
+    height: 40px;
+    background: #f1f1fa;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} 
+.current-progress .progress-box .icon i {
+    font-size: 20px;
+} 
+.current-progress .progress-box p{
+    font-size: 12px;
+    margin-left: 9px;
+    color: #a8b4bd;
+    line-height: 1.6;
+} 
+.current-progress .progress-box p span{
+    font-size: 16px;
+    color: #000;
+} 
+progress {
+    width: 80vw;
+    height: 30px;
+    margin-top: 10px;
+}
+/* End current box */
+
+/* Start section Recommendation  */
+.title-Recommendation {
+    padding: 5% 5% 2% 5%;
+}
+.Recommendation {
+    background-color: #EEEFF8;
+    height: 750px;
+    padding-top: 140px;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    top:-30px;
+}
+.Recommendation .box {
+    background-color:#FCFCFF ;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Recommendation .box .box-star {
+    font-size: 12px;
+    color: #a8b4bd ;
+}
+.Recommendation .box .box-star i {
+    color: #ffc960;
+}
+.Recommendation .box .box-star span {
+    color:#000;
+    font-weight: bold;
+}
+.Recommendation .box .box-color {
+    background-color:#ff8181 ;
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.Recommendation .box .box-color .inside-circle {
+    background-color: #ffffff54;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* End section Recommendation */
+
+/* start section footer */
+footer {
+    background-color:#FCFCFF;
+    margin: auto;
+    border-radius: 30px;
+    position: absolute;
+    top:900px;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-end;
+}
+footer .footer-icon i {
+    font-size: 25px;
+}
+.active {
+    color: #ff8181;
+}
+.active p {
+    font-size: 13px;
+}
+/* End section footer */
+
+@media (max-width:320px) {
+    .current-progress .special {
+        margin-left:0;
+    } 
+    progress {
+        margin-top:-2px;
+    }
+    .current-box {
+        height: 230px;
+    }
+}
+@media (min-width:768px) {
+    .Recommendation .box {
+        width: 80%;
+    }
+    .Recommendation .box-content {
+        width: 70%;
+    }
+    .current-box .box-content {
+        width: 70%;
+    }
+    .current-progress {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width:1200px) {
+    .Recommendation-boxs {
+        display: flex;
+    }
+    .Recommendation {
+        height:530px;
+    }
+    .Recommendation .box {
+        width: auto;
+    }
+    .Recommendation .box .box-color {
+        margin-left: 10px;
+    }
+    footer {
+        top: 678px;
+    }
+    .current-progress {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    progress {
+        width: 68vw;
+        margin-left: 140px;
+    }
+}
