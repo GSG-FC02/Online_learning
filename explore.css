@@ -1,0 +1,212 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+body {
+    margin: 0;
+    height: auto;
+    background-color: #c4d0d9;
+    background-color: #6360ff;
+    width: 425px;
+}
+/* Header section */
+.explore-head-div {
+
+height: 50px;
+padding-left: 25px;
+padding-right: 25px;
+font-size: 14px;
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+width: 100%;
+background-color: #6360ff;
+color: #fff;
+margin-bottom: 10px;
+
+
+}
+.explore-head-div h1 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+
+}
+/* Buttons Section */
+.explore-first-section {
+    width: 100%;
+    background-color: #c4d0d9;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: auto;
+    padding: 25px;
+}
+.explore-search-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    
+}
+.explore-search-bar input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.explore-search-bar i {
+    padding : 5px;
+    color: #c4d0d9;
+}
+h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+.explore-buttons button {
+    background-color: #6360ff;
+    color: #fff;
+    border: #c4d0d9 1px solid;
+    border-radius: 30px;
+    font-size: 12px;
+    /* padding : 12px; */
+    height: 30px;
+    text-align: center;
+    
+}
+
+/* content-section */
+
+.explore-content-section {
+    background-color: #c4d0d9;
+    padding: 25px;
+    width: 100%;
+}
+.container-box {
+    font-size: 12px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 105px;
+    color: black;
+    
+
+
+}
+.content-box p {
+    
+    margin: 0;
+    padding: 0;
+}
+.bold-p {
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+}
+.fa-circle {
+    color: #c4d0d9;
+    size: small;
+}
+.fa-star {
+    color: yellow;
+}
+#last-p {
+    color: #c4d0d9;
+    display: block;
+
+}
+/* Red Boxes */
+.box-color {
+    background-color:#ff8181 ;
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.inside-circle {
+    background-color: #ffffff54;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+   
+}
+
+/* Media Quiery */
+
+/* media 500px size and up */
+@media screen and (min-width: 426px) {
+    body {
+        width: 100%;
+    }
+    .explore-head-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        
+    }
+    .explore-head-div h1 {
+        font-size: 25px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .explore-first-section {
+        width: 100%;
+        
+    }
+    .explore-first-section h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 20px;
+
+    }
+    
+    
+    .explore-buttons button {
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+    }
+
+}
+
+/* Media 768px and up */
+@media screen and (min-width: 768px) {
+    .explore-head-div h1 {
+        font-size: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .explore-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .explore-content-section h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .container-box {
+        font-size: 18px;
+    }
+
+
+}
