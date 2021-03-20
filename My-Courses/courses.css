@@ -141,6 +141,32 @@ a {
    
 }
 
+/* start section footer */
+footer {
+    background-color:#FCFCFF;
+    margin: auto;
+    border-radius: 30px;
+    position: absolute;
+    top:900px;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-end;
+}
+footer .footer-icon i {
+    font-size: 25px;
+}
+.active {
+    color: #ff8181;
+}
+.active p {
+    font-size: 13px;
+}
+/* End section footer */
+
+
 /* Media Quiery */
 
 /* media 500px size and up */
