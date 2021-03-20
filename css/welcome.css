@@ -159,13 +159,12 @@ progress {
 /* start section footer */
 footer {
     background-color:#FCFCFF;
-    margin: auto;
     border-radius: 30px;
     position: absolute;
     top:900px;
     height: 70px;
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-content:flex-end;
@@ -196,10 +195,7 @@ footer .footer-icon i {
     .Recommendation .box {
         width: 80%;
     }
-    .Recommendation .box-content {
-        width: 70%;
-    }
-    .current-box .box-content {
+    .Recommendation .box-content , .current-box .box-content  {
         width: 70%;
     }
     .current-progress {
@@ -215,7 +211,8 @@ footer .footer-icon i {
         height:530px;
     }
     .Recommendation .box {
-        width: auto;
+        margin: 18px;
+        width: 30%;
     }
     .Recommendation .box .box-color {
         margin-left: 10px;
@@ -228,7 +225,15 @@ footer .footer-icon i {
         justify-content: space-evenly;
     }
     progress {
-        width: 68vw;
+        width: 43vw;
         margin-left: 140px;
+    }
+    .container , footer {
+        width: 70%;
+        margin: auto;
+    }
+    .current-box {
+        left: 20%;
+        width: 60%;
     }
 }
