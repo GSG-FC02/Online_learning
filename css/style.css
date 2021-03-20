@@ -12,7 +12,7 @@
     position: relative;
 }
 header{
-    height:55vh;
+    height:60vh;
     text-align: center;
     padding: 5%;
     color: #fff;
@@ -38,7 +38,8 @@ header{
    margin-top: -15px;
 }
 .head-logo{
-    width: 45px;
+    width: 59px;
+    height: 59px;
 }
 
 .login_info{
@@ -47,7 +48,8 @@ header{
     background-color: #F1F1FA;
     border-radius: 25px;
     position: absolute;
-    top:247px;
+    top:357px;
+    padding-top: 15px;
 }
 
 form {
@@ -94,10 +96,10 @@ form {
        
     } 
     .icone1{
-        top: 1em;
+        top: 1.8em;
     }
     .icon2{
-        top: 4.1em;
+        top: 5.1em;
     }
     button{
         text-align: center;
@@ -106,46 +108,64 @@ form {
         border: none;
         outline: none;
     }
+    button:hover{
+        outline: none;
+        background-color: rgb(227, 227, 234);
+        font-size: 18px;
+    }
+    .btn1:hover{
+        color: #6360FF;
+    }
     .btn1{
         background-color: #6360FF;
     }
     .btn2{
         background-color: #FF8181;
     }
+    .btn2:hover{
+        color:#FF8181 ;
+    }
     footer{
+        padding-top: 30px;
         color: #91919F;
         font-size: 12px;
     }
 /* For Responsive */
        
         @media screen  and  (min-width: 768px) {
+            header{
+                height:50vh;
+            }
             .login{
-                width: 50%;
+                width: 70%;
                 margin:7px auto;
             }
-            header{
-                padding-top:-30px;
-            }
+            .login_info{
+                height: 50vh;
+                top:300px;}
             .icon {
                 left:20px
                }
                .icone1{
-                top: 1.1em;
+                top: 2.7em;
             }
             .icon2{
-                top: 4.4em;
+                top: 5.7em;
+            }
+            footer{
+                padding-top: 0px;
             }
             }  
             /* *************************************  */
             @media screen and (min-width:1024px) {
                 .icon {
-                    left:1.7em;
+                    left:2.8em;
                    }
                    .icone1{
-                    top: 1.8em;
+                    top: 3.8em;
                 }
                 .icon2{
-                    top: 4.8em;
+                    top: 7em;
                 }
             }
 
