@@ -111,4 +111,8 @@ footer .footer-icon i {
     .info img {
         width: 10%;
     }
+    .container , footer {
+        width: 70%;
+        margin: auto;
+    }
 }
