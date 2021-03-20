@@ -41,6 +41,11 @@ header .title{
 .discu{
     background-color: #F1F1FA;
     color: #91919F;}
+.discu:hover{
+  background-color:#6360FF;
+  font-size: 18px;
+  color:#FF8181;
+}
 .items{
         padding-top:5px;
         font-weight: 200;
@@ -87,7 +92,7 @@ header .title{
 
 @media screen  and  (min-width: 768px) {
     .video-page{
-        width: 80%;
+        width: 70%;
         margin:7px auto;
     }
     .video{
