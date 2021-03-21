@@ -115,6 +115,7 @@ form {
     }
     .btn1 a{
         text-decoration: none;
+        display: block;
     }
     .btn2{
         background-color: #FF8181;
