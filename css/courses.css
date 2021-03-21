@@ -1,0 +1,250 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F1F1FA;
+}
+/* Header section */
+.courses-head-div {
+
+height: 50px;
+padding: 25px;
+font-size: 14px;
+display: flex;
+
+justify-content:space-between;
+align-items: center;
+
+background-color: #6360ff;
+color: #fff;
+margin-bottom: 10px;
+
+
+}
+.courses-head-div h1 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+
+}
+.courses-head-div button {
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 30px;
+
+}
+button:hover {
+    cursor: pointer;
+    background-color:#fff ;
+    color: #6360ff;
+}
+/*Buttons-section*/
+.courses-buttons-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.courses-buttons-nav h2 {
+    width: 35%;
+    margin: 20px 10px 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+h2 a {
+    text-decoration: none;
+    color: #aeb1b9
+
+}
+h2 .visited {
+    color: black;
+}
+
+.courses-buttons-nav h2 :hover {
+    color: black;
+}
+
+/* content-section */
+
+.courses-section {
+    width: 80%;
+    background-color: #F1F1FA;
+    margin: 0 auto;
+    
+}
+.container-box {
+    font-size: 9px;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 105px;
+    color: black;
+    
+
+
+}
+.content-box p {
+    
+    margin: 0;
+    padding: 0;
+}
+.bold-p {
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+}
+.fa-circle {
+    color: #c4d0d9;
+    size: small;
+}
+.fa-star {
+    color: yellow;
+}
+#last-p {
+    color: #c4d0d9;
+    display: block;
+
+}
+/* Red Boxes */
+.box-color {
+    background-color:#ff8181 ;
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.inside-circle {
+    background-color: #ffffff54;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+   
+}
+
+/* start section footer */
+footer {
+    background-color:#FCFCFF;
+    margin: auto;
+    border-radius: 30px;
+    position: absolute;
+    top: 600px;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-end;
+}
+footer .footer-icon i {
+    font-size: 25px;
+}
+.active {
+    color: #ff8181;
+}
+.active p {
+    font-size: 13px;
+}
+/* End section footer */
+
+
+/* Media Quiery */
+
+/* media 500px size and up */
+@media screen and (min-width: 375px) {
+    body {
+        width: 100%;
+        
+    }
+    .courses-head-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        
+    }
+    .courses-head-div h1 {
+        font-size: 18px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    
+    .courses-buttons button {
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+    }
+    .container-box {
+        padding: 15px;
+        font-size: 10px;
+    }
+
+}
+/*Media 425px and up */
+@media screen and (min-width: 425px) {
+    .courses-head-div h1 {
+        font-size: 25px;
+    }
+    .courses-section {
+        
+        font-size: 12px;
+        width: 70%;
+        
+    }
+    footer {
+        top: 700px;
+    }
+
+
+}
+
+/* Media 768px and up */
+@media screen and (min-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .courses-head-div h1 {
+        font-size: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .courses-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .courses-section h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 20px;
+        
+    }
+    .container-box {
+        font-size: 18px;
+        padding: 70px 20px 70px 20px;
+        
+    }
+
+
+}
