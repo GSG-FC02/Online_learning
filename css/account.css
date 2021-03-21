@@ -1,0 +1,118 @@
+/*  #6360ff primary color 
+    #161719 accent color 
+    #c4d0d9 lines and icons 
+    #ff8181 button and checkbox 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', arial, sans-serif;
+}
+/* start section header */
+header {
+    background-color: #6360ff;
+    color: #FFF;
+    height: 400px;
+    padding: 20px;
+}
+.path span{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.info img{
+    border-radius: 50%;
+    width: 35%;
+    margin-bottom: 30px;
+}
+.info h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+/* End section header */
+
+/* Start section list */
+.list {
+    background-color:#f4f4f4 ;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+    top: -25px;
+    height: 520px;
+}
+.list .group {
+    margin-bottom: 60px;
+}
+.list .item {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.list .group .item:first-of-type {
+    margin-top: 15px;
+}
+.list .group .item:not(:first-of-type) {
+    margin-top: 30px;
+}
+.list .group h6 , .list .item i {
+    color:#c4d0d9 ;
+}
+/* End section list */
+
+/* start section footer */
+footer {
+    background-color:#fcfcfc;
+    border-radius: 30px;
+    position: absolute;
+    top: 860px;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    cursor: pointer;
+}
+footer .footer-icon i {
+    font-size: 25px;
+}
+.active {
+    color: #ff8181;
+}
+.active p {
+    font-size: 13px;
+    margin-left: -12px;
+}
+/* End section footer */
+
+@media (min-width:768px) {
+    .list .group {
+        text-align: center;
+    }
+    .list .item {
+        justify-content: center;
+    }
+    .list .item i {
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:1199px){
+    .info img {
+        width: 12%;
+    }
+}
+@media (min-width:1200px){
+    .info img {
+        width: 10%;
+    }
+    .container , footer {
+        width: 70%;
+        margin: auto;
+    }
+}
