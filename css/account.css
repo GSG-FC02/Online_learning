@@ -79,11 +79,14 @@ footer {
     align-content:flex-end;
     cursor: pointer;
 }
+footer .footer-icon a {
+    color: #000;
+}
 footer .footer-icon i {
     font-size: 25px;
 }
-.active {
-    color: #ff8181;
+.active , .active a:visited {
+    color: #ff8181 !important;
 }
 .active p {
     font-size: 13px;
