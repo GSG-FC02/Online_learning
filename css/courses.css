@@ -147,7 +147,7 @@ footer {
     margin: auto;
     border-radius: 30px;
     position: absolute;
-    top: 91%;
+    top: 600px;
     height: 70px;
     display: flex;
     width: 100%;
@@ -215,6 +215,11 @@ footer .footer-icon i {
         width: 70%;
         
     }
+    footer {
+        top: 700px;
+    }
+
+
 }
 
 /* Media 768px and up */
@@ -243,12 +248,6 @@ footer .footer-icon i {
         padding: 70px 20px 70px 20px;
         
     }
-}
 
-@media only screen 
-    and (device-width : 768px) 
-    and (device-height : 626px)  {
-        footer {
-            top: 110%;
-        }
-    }
+
+}
