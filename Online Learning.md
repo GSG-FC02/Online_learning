@@ -1,11 +1,12 @@
-# Online Learning 
+# [Online Learning ](https://gsg-fc02.github.io/Online_learning/)
 A website for online learning created with Html  and Css languages.
+
 
 ## Introduction
 The project is an onlime learning website has been created to people who are interested in learning online, and fullfills the needs for those who have Obstructions with travelling to find more valuable training . The website displays a large number of courses with so many options from all over the world. Our team created this project while we were under the training of Gaza Sky Geeks Code Academy - Fundamentals Course.
 
 ## Team Members
-The team who created this project consists of four members with equaly distributed tasks that we will explain them with more details later in this file. The members of our ***team*** are : 
+The team who created this project consists of three members with equaly distributed tasks that we will explain them with more details later in this file. The members of our ***team*** are : 
 1. Reem Shamia (Coding Trainee).
 2. Ahmed Hamouda (Coding Trainee).
 3. Ahmad Sabbah (Coding Trainee).
@@ -32,3 +33,5 @@ The team who created this project consists of four members with equaly distribut
 
 ## User Story
 As a user I can sign up or log in from sign up page then I can browse and search for new courses in the Explore page. The user can find his completed and running courses in My Courses page. The last page -My Account page- is for the data of theuser and he has the ability to write any data about him and controlling the account sitting.
+
+
