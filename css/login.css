@@ -104,7 +104,6 @@ form {
     }
     button:hover{
         outline: none;
-        background-color: rgb(227, 227, 234);
         font-size: 18px;
     }
     .btn1:hover{
