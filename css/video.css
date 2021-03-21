@@ -22,6 +22,20 @@ header i{
 header .title{
     margin-left: 15px;
     font-weight: 200;
+    display: inline-block;
+}
+header a{
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header a:hover {
+    background-color: #fff;
+    color: #6360ff; 
 }
 .video{
     width:100%;
