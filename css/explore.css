@@ -9,20 +9,17 @@ body {
 }
 /* Header section */
 .explore-head-div {
+    height: 50px;
+    padding: 25px;
+    font-size: 14px;
+    display: flex;
 
-height: 50px;
-padding: 25px;
-font-size: 14px;
-display: flex;
+    justify-content:space-between;
+    align-items: center;
 
-justify-content:space-between;
-align-items: center;
-
-background-color: #6360ff;
-color: #fff;
-margin-bottom: 10px;
-
-
+    background-color: #6360ff;
+    color: #fff;
+    margin-bottom: 10px;
 }
 .explore-head-div h1 {
     font-size: 14px;
@@ -37,19 +34,17 @@ margin-bottom: 10px;
     border: none;
     color: white;
     border-radius: 30px;
-
 }
 
 /* Buttons Section */
 .explore-first-section {
-    /* width: 100%; */
     background-color: #F1F1FA;
     border-radius: 30px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     height: auto;
     padding: 25px;
-    width: 80%;
+    width: 100%;
 }
 .explore-search-bar {
     display: flex;
@@ -58,10 +53,8 @@ margin-bottom: 10px;
     padding: 10px;
     margin: 10px;
     border-radius: 1rem;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-
-    
 }
 .explore-search-bar input {
     width: 80%;
@@ -69,6 +62,7 @@ margin-bottom: 10px;
     border: none;
     display: flex;
     justify-content: center;
+    outline: none;
 }
 .explore-search-bar i {
     padding : 5px;
@@ -79,12 +73,10 @@ h2 {
     letter-spacing: 1px;
 }
 .explore-buttons{
-    width:90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /* padding-left: 50px; */
 }
 
 .explore-buttons button {
@@ -93,11 +85,10 @@ h2 {
     border: #c4d0d9 1px solid;
     border-radius: 30px;
     font-size: 12px;
-    /* padding : 12px; */
     height: 30px;
     text-align: center;
     width: 30%;
-    
+    outline: none;
 }
 button:hover {
     cursor: pointer;
@@ -238,7 +229,7 @@ footer .footer-icon i {
     
     
     .explore-buttons button {
-        font-size: 16px;
+        font-size: 14px;
         height: auto;
         padding: 10px;
     }
@@ -288,6 +279,8 @@ footer .footer-icon i {
     footer {
         top: 1200px;
     }
-
-
+    .explore-search-bar {
+        width: 80%;
+    }
+    
 }

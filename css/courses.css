@@ -140,7 +140,6 @@ a {
     text-decoration: none;
    
 }
-
 /* start section footer */
 footer {
     background-color:#FCFCFF;
@@ -166,6 +165,7 @@ footer .footer-icon i {
 }
 .active p {
     font-size: 13px;
+    margin-left: -8px;
 }
 /* End section footer */
 
