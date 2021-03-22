@@ -3,7 +3,7 @@ A website for online learning created with Html  and Css languages.
 
 
 ## Introduction
-The project is an onlime learning website has been created to people who are interested in learning online, and fullfills the needs for those who have Obstructions with travelling to find more valuable training . The website displays a large number of courses with so many options from all over the world. Our team created this project while we were under the training of Gaza Sky Geeks Code Academy - Fundamentals Course.
+The project is an online learning website has been created to people who are interested in learning online, and fullfills the needs for those who have Obstructions with travelling to find more valuable training . The website displays a large number of courses with so many options from all over the world. Our team created this project while we were under the training of Gaza Sky Geeks Code Academy - Fundamentals Course.
 
 ## Team Members
 The team who created this project consists of three members with equaly distributed tasks that we will explain them with more details later in this file. The members of our ***team*** are : 
