@@ -100,14 +100,9 @@ form {
         color: #fff;
         border: none;
         outline: none;
+        font-size: 16.px;
     }
-    button:hover{
-        outline: none;
-        font-size: 18px;
-    }
-    .btn1:hover{
-        color: #6360FF;
-    }
+
     .btn1{
         background-color: #6360FF;
     }
